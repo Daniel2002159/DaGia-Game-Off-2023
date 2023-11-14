@@ -1,0 +1,56 @@
+{
+    "name": "Input Actions",
+    "maps": [
+        {
+            "name": "Player Control",
+            "id": "3de47c19-a020-4b36-ad21-960239348b52",
+            "actions": [
+                {
+                    "name": "movementInput",
+                    "type": "PassThrough",
+                    "id": "ea0c3503-46c6-48a6-8a26-5bb4f5f81470",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "db251891-698b-41dc-bc63-dd6e550b77ee",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movementInput",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "05cceafa-1104-4b81-a811-0cf908dd6d8d",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movementInput",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "a1e20d2a-22fa-4aa1-b4f4-073d29482b18",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movementInput",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
