@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WalkingSpeed: 0.08
-  JumpStrenght: 1
+  JumpStrenght: 5
   IsOnFloor: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
