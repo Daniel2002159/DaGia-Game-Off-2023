@@ -38,4 +38,4 @@ public class PlayerCharacterScript : MonoBehaviour
     {
         Move();
     }
-}
+}   
